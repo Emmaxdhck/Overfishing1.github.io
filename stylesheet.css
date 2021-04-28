@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(101, 99, 124);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgba(44, 102, 209, 0.856);
+}
+nav h1 {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}    
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(overfishingpic6.jpeg);
+    background-size: cover;
+    color: rgba(44, 102, 209, 0.856);
+    padding: 40px;
+}
+header h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+header h4 {
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    font-family: 'Playfair Display', serif;
+
+}
+header button {
+    padding: 10px 10px;
+    background-color: rgba(44, 102, 209, 0.856);
+    border: none;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    outline: none;
+    cursor: pointer;
+}
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: rgba(44, 102, 209, 0.856);
+    color: #fff;
+}
+.main .content .card.right {
+    flex: 0 0 70%;
+}
+.main .content .card .right img {
+    height: 300px;
+    width: 500px;
+    margin-top: 5px;
+}
+footer {
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: black;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1 {
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service {
+    margin-right: 30px;
+}
+footer .services .service p {
+    max-width: 300px;
+}
